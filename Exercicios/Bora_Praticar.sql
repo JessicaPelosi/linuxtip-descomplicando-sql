@@ -1,4 +1,5 @@
 -- Databricks notebook source
+-- DBTITLE 1,Exercício 01
 -- 01 Selecione todos os clientes paulistanos
 
 SELECT *
@@ -9,6 +10,7 @@ WHERE descCidade = 'sao paulo'
 
 -- COMMAND ----------
 
+-- DBTITLE 1,Exercício 02
 SELECT *
 
 FROM silver_olist.cliente
@@ -17,6 +19,7 @@ WHERE descUF = 'SP'
 
 -- COMMAND ----------
 
+-- DBTITLE 1,Exercício 03
 -- 03 Selecione todos os vendedores cariocas e paulistas.
 
 SELECT *
@@ -28,6 +31,7 @@ OR descUf = 'SP'
 
 -- COMMAND ----------
 
+-- DBTITLE 1,Exercício 04
 -- 04 Selecione produtos de perfumaria e bebes com altura maior que 5 cm.
 
 SELECT *
